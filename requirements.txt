@@ -1,0 +1,18 @@
+# --- Music Downloader dependencies ---
+# UI
+customtkinter>=5.2.2
+
+# Metadata / discography lookup (MusicBrainz)
+musicbrainzngs>=0.7.1
+
+# Download engine
+yt-dlp>=2024.1.0
+
+# ID3 tagging
+mutagen>=1.47.0
+
+# HTTP (album art fetch, cover art archive)
+requests>=2.31.0
+
+# Pillow is used by CustomTkinter for image rendering (artwork previews)
+pillow>=10.0.0
